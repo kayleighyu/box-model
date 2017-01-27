@@ -8,22 +8,25 @@ body {
 }
 
 .box-sm {
-  height: 100px;
-  width: 200px;
+  height: 75%;
+  width: 80%;
+  margin-top: auto;
 }
 
 .box-md {
-  height: 200px;
-  width: 400px;
+  height: 150px;
+  width: 60%;
 }
 
 .box-lg{
   height: 300px;
-  width: 90%;
+  width: 60%;
+  position:absolute;
 }
 
 .border{
-  border: 5px solid black;
+  border: 6px solid black;
+  border-radius: 5px;
 }
 
 #yellow {
@@ -34,12 +37,11 @@ body {
 #red {
   background-color: red;
   margin: auto;
-  margin-top: 30px;
-  padding-top: 3%;
+  margin-top: 60px;
+  padding-top: 10px;
 }
 
 #blue{
-  background-color: blue;
-  margin: auto;
-
+  background-color: aqua;
+  margin: 13px auto;
 }
